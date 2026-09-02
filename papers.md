@@ -7,7 +7,7 @@
 - **状态**：`to-read`
 - **加入日期**：2026-08-28
 - **分类**：Generalist Robot Learning and Task Generalization
-- **子分类**：In-Context Learning and Video-Conditioned Policies
+- **子分类**：Video-Action World Models
 - **作者**：Jiaming Zhou；Qihang Zhang；Gangwei Xu；Cunxin Fan；Yujie Zhao；Ruilin Wang；Yiming Luo；Shuai Yang；Xing Zhu；Yujun Shen；Junwei Liang；Yinghao Xu
 - **年份**：2026
 - **类型/来源**：arXiv 预印本；Robotics (`cs.RO`)，Computer Vision and Pattern Recognition (`cs.CV`)
@@ -24,7 +24,7 @@
 - **状态**：`to-read`
 - **加入日期**：2026-08-28
 - **分类**：Generalist Robot Learning and Task Generalization
-- **子分类**：In-Context Learning and Video-Conditioned Policies
+- **子分类**：In-Context Robot Learning
 - **作者**：Skild AI（机构作者）
 - **年份**：2026（2026 年 8 月）
 - **类型/来源**：公司技术文章 / 产品研究博客；Skild AI
@@ -40,7 +40,7 @@
 - **状态**：`to-read`
 - **加入日期**：2026-08-28
 - **分类**：Humanoid Locomotion and Whole-Body Control
-- **子分类**：Perceptive Locomotion and Loco-Manipulation
+- **子分类**：Locomotion
 - **作者**：Siheng Zhao；Yuanhang Zhang；Ziqi Lu；Pieter Abbeel；Rocky Duan；Koushil Sreenath；Yue Wang；C. Karen Liu；Guanya Shi
 - **年份**：2026
 - **类型/来源**：arXiv 预印本；Robotics (`cs.RO`)，Artificial Intelligence (`cs.AI`)，Computer Vision and Pattern Recognition (`cs.CV`)，Machine Learning (`cs.LG`)
@@ -57,7 +57,7 @@
 - **状态**：`to-read`
 - **加入日期**：2026-09-01
 - **分类**：Generalist Robot Learning and Task Generalization
-- **子分类**：Generalist Embodied Navigation
+- **子分类**：Embodied Navigation
 - **作者**：Light Origins Team（机构作者）
 - **年份**：2026（2026-09-01）
 - **类型/来源**：技术报告与开源项目；Light Origins
@@ -89,3 +89,19 @@
 - **标签**：`robot-learning`、`robotic-manipulation`、`video-action-model`、`world-model`、`autoregressive-diffusion`、`mixture-of-transformers`、`long-horizon`
 - **备注**：提出自回归 video-action world model LingBot-VA，在统一的交错序列中联合学习未来帧预测与动作执行。其设计包括共享视觉—动作隐空间、Mixture-of-Transformers、基于真实观测更新的闭环 rollout，以及并行动作预测与电机执行的异步推理，面向长时程操作、数据高效后训练及对新配置的泛化。
 - **核验状态**：标题、作者、版本、学科分类、arXiv 标识符、RSS 2026 信息、项目页、代码仓库及 Hugging Face 资源已通过 arXiv 和 Robbyant 官方页面交叉核验；尚未下载或阅读论文全文。
+
+## Precise Manipulation with Efficient Online RL
+
+- **状态**：`to-read`
+- **加入日期**：2026-09-02
+- **分类**：Generalist Robot Learning and Task Generalization
+- **子分类**：Online Reinforcement Learning and Adaptation
+- **作者**：Charles Xu；Jost Tobias Springenberg；Michael Equi；Ali Amin；Adnan Esmail；Sergey Levine；Liyiming Ke
+- **年份**：2026（2026-03-19）
+- **类型/来源**：研究论文与项目文章；Physical Intelligence
+- **原始 URL**：https://www.pi.website/research/rlt
+- **论文 URL**：2026-03-19 · https://www.pi.website/download/rlt.pdf
+- **标识符**：无 DOI 或 arXiv 编号
+- **标签**：`robot-learning`、`robotic-manipulation`、`vision-language-action`、`online-reinforcement-learning`、`sample-efficient-rl`、`precision-manipulation`、`actor-critic`
+- **备注**：提出 RL tokens（RLT），从预训练 VLA 的内部表征中提取紧凑状态表示，并将其输入可在机器人端快速更新的轻量 actor–critic。在线策略以 VLA 动作为参考进行 action-chunk 编辑，结合离策略强化学习、参考动作正则和可选的人类干预，用少量真实机器人数据针对性改进螺丝对准、扎带固定与线缆插入等高精度操作阶段。
+- **核验状态**：标题、作者、发布日期、论文 PDF 和方法概述已通过 Physical Intelligence 官方研究页面核验。当前未找到 arXiv、DOI、公开代码或独立同行评审信息；实验结果主要由发布机构报告，尚未阅读论文全文。
